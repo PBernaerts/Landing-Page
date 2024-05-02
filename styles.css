@@ -1,3 +1,28 @@
-div {
-    border: 1px solid #f70000ff;
+* {
+    outline: 1px solid red !important;
 }
+
+body {
+    font-family: roboto;
+}
+
+    .container-top {
+        background-color: #1f2937;
+    }
+
+        #awesome, .logo {
+            color: #f9faf8;
+            font-size: 48px;
+            font-weight:bolder;
+        }
+
+        #subtext, .links, .topright {
+            color: #e5e7eb;
+            font-size: 18px;
+        }
+
+        .logo {
+            font-size: 24px;
+        }
+
+
