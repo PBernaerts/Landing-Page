@@ -77,13 +77,14 @@ body {
                     margin-bottom: 5px;
                 }
 
-                button {
+                #topbutton {
                     text-align: center;
+                    background-color: #3882f6;
                     color: #e5e7eb;
                     font-family: roboto;
                     font-weight: 500;
                     font-size: 18px;
-                    background-color: #3882f6;
+                   
                     border: none;
                     border-radius: 8px;
                     padding-top: 5px;
@@ -142,6 +143,7 @@ body {
                 #subtext2 {
                     color: black;
                     text-align: center;
+                    font-weight: 300;
                 }
     
     .container-quote {
@@ -171,3 +173,53 @@ body {
                 font-weight: 900;
                 margin-top: 5px;
             }
+
+    .container-bottom {
+        display: flex;
+        background-color: white;
+        justify-content: center;
+    }
+
+        .blue {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 200px;
+            background-color: #3882f6;
+            width: 1200px;
+            height: 150px;
+            border-radius: 8px;
+        }
+
+        .action {
+            color:#e5e7eb;
+            width: 450px;
+            gap: 30px;
+            margin-left: 80px;          
+        }
+
+            #act {
+                font-size: 24px;
+                font-weight: 900;
+                margin-bottom: 0px;
+                margin-top: 5px;
+            }
+            
+            #signup {
+                font-size: 14px;
+                font-weight: 400;
+                margin-top: 5px;
+            
+            }
+
+        #bottombutton {
+            width: 120px;
+            height: 30px;
+            margin-right: 100px;
+            background-color: #3882f6;
+            color: #e5e7eb;
+            border: 3;
+            border-color: #e5e7eb;
+            border-radius: 8px;
+            
+        }
