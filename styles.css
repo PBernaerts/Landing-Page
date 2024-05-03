@@ -125,7 +125,6 @@ body {
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
-                /* gap: 20px; */
                 width: 150px;
                 height: 250px;
             }
@@ -135,6 +134,8 @@ body {
                     height: 125px;
                     border: 5px;
                     border-color: #1f2937;
+                    border-radius: 8px;
+                    /* check border after finishing entire page */
                 }
 
                 #subtext2 {
