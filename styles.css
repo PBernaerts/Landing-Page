@@ -142,3 +142,18 @@ body {
                     color: black;
                     text-align: center;
                 }
+    
+    .container-quote {
+        display: flex;
+        justify-content: center;
+    }            
+
+        .quote {
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+        }
+
+            #thor {
+                text-align: right;
+            }
