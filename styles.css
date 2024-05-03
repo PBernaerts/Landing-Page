@@ -116,3 +116,28 @@ body {
             color: #1f2937;
         }
 
+        .container-images {
+            display: flex;
+        
+        }
+            .images {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                /* gap: 20px; */
+                width: 150px;
+                height: 250px;
+            }
+
+                .illustration {
+                    width: 125px;
+                    height: 125px;
+                    border: 5px;
+                    border-color: #1f2937;
+                }
+
+                #subtext2 {
+                    color: black;
+                    text-align: center;
+                }
