@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: roboto;
+    font-family: "Roboto", sans-serif;
 }
 
     .container-top {
@@ -118,6 +118,7 @@ body {
 
         .container-images {
             display: flex;
+            gap: 40px;
         
         }
             .images {
@@ -125,13 +126,13 @@ body {
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
-                width: 150px;
+                width: 160px;
                 height: 250px;
             }
 
                 .illustration {
-                    width: 125px;
-                    height: 125px;
+                    width: 150px;
+                    height: 150px;
                     border: 5px;
                     border-color: #1f2937;
                     border-radius: 8px;
@@ -146,14 +147,27 @@ body {
     .container-quote {
         display: flex;
         justify-content: center;
+        background-color: #e5e7eb;
     }            
 
         .quote {
             display: flex;
             flex-direction: column;
-            width: 500px;
+            width: 800px;
         }
+
+            #quotetxt {
+                font-size: 36px;
+                font-family: "Roboto", sans-serif;
+                font-style: italic;
+                font-weight: 300;
+                color: #1f2937;
+                margin-bottom: 5px;
+                padding: 5px;
+            }
 
             #thor {
                 text-align: right;
+                font-weight: 900;
+                margin-top: 5px;
             }
